@@ -1,0 +1,13 @@
+.container {
+    height: 800px;
+    width: 100%;
+}
+
+.about-box{
+    height: 700px;
+    width: 30%;
+    border: 3px solid #f44336;
+    float: left;
+    margin-left: 35px;
+}
+

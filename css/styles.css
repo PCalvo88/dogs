@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    /* position: fixed; */
+    
+}
+
+.logo {
+    height: 70px;
+    width: 100px;
+}
+
+.nav-list {
+    height: 70px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+    
+}
+
+.list-item {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Girassol", cursive;
+    border-style: groove;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+    border-radius: 50%;
+  }
+
+  /* <!-------------------------------- end of nav ----------------------------------------------------> */
+  .hero-img {
+      background-image: url("../img/RLC.jpg");
+      height: 800px;
+      width: 100%;
+      background-attachment: fixed;
+      background-position: center;
+      /* margin-top: 80px; */
+      /* background-repeat: no-repeat; */
+      /* background-size: ; */
+      position: relative;
+  }
+
+  .hero-text-box {
+      height: 100px;
+      width: 300px;
+      border: solid 60px rgb(243, 6, 34);
+      position: relative;
+      top: auto;
+  }
+  
+  .footer {
+      width: 100px;
+      height: 100%;
+      display: inline-block;
+      background-color: #f44336;
+      clear: both;
+      
+  }
+
+  .input, .social, .copy {
+      display: inline-block;
+      text-align: center;
+      width: 33%;
+      margin-top: 35px;
+      
+  }
+
+  .fab {
+      font-size: 5em;
+      margin-right: 15px;
+  }
+
+  .fa-facebook {
+      color: #3b5998;
+  }
+  
+  .fa-instagram {
+      color: #458eff;
+  }
+
+  /* -------------------------end of home page---------------------- */
+
+  .container { 
+      height: 800px;
+      width: 100%;
+  }
+
+  .container-img {
+      width: 300px;
+      display: block;
+      margin: auto;
+      margin-top: 25px;
+  }
+
+  
+  .about-box {
+    height: 700px;
+    width: 30%;
+    border: 3px solid #f44336;
+    box-shadow: 3px 3px #000;
+    float: left;
+    margin-left: 35px;
+  }
+
+  .audio {
+    margin: center;
+  }
+
+  .video {
+    margin: 5px;
+    inset-inline: 30px;
+  }
+
+  .donation {
+      height: 600px;
+      width: 400px;
+      border: 6px green;
+  }
